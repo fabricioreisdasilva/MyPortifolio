@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.frdasilva.nanodegree.myportifolio.MainActivity"
+    tools:background="#fff8e1">
+
+    <Button
+        android:text="@string/txtStockHawk"
+        android:layout_width="@dimen/larguraBotao"
+        android:layout_height="@dimen/alturaBotao"
+        android:id="@+id/btStockHawk"
+        android:background="@color/corBotao"
+        android:layout_below="@+id/btPopularMovies"
+        android:layout_alignLeft="@+id/btPopularMovies"
+        android:layout_alignStart="@+id/btPopularMovies"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/corBackground" />
+
+    <TextView
+        android:text="@string/tituloApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_titulo"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:textColor="@android:color/background_dark" />
+
+    <Button
+        android:text="@string/txtPopularMovies"
+        android:id="@+id/btPopularMovies"
+        android:layout_width="@dimen/larguraBotao"
+        android:layout_height="@dimen/alturaBotao"
+        android:background="@color/corBotao"
+        android:layout_below="@+id/tv_titulo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/corBackground" />
+
+    <Button
+        android:text="@string/txtBuildItBigger"
+        android:layout_width="@dimen/larguraBotao"
+        android:layout_height="@dimen/alturaBotao"
+        android:id="@+id/btBuildItBigger"
+        android:background="@color/corBotao"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/corBackground"
+        android:layout_below="@+id/btStockHawk"
+        android:layout_alignLeft="@+id/btStockHawk"
+        android:layout_alignStart="@+id/btStockHawk" />
+
+    <Button
+        android:text="@string/txtMakeMaterial"
+        android:layout_width="@dimen/larguraBotao"
+        android:layout_height="@dimen/alturaBotao"
+        android:layout_marginTop="12dp"
+        android:id="@+id/btMakeMaterial"
+        android:background="@color/corBotao"
+        android:textColor="@color/corBackground"
+        android:layout_below="@+id/btBuildItBigger"
+        android:layout_alignLeft="@+id/btBuildItBigger"
+        android:layout_alignStart="@+id/btBuildItBigger" />
+
+    <Button
+        android:text="@string/txtGoUbiquitous"
+        android:layout_width="@dimen/larguraBotao"
+        android:layout_height="@dimen/alturaBotao"
+        android:id="@+id/btGoUbiquitous"
+        android:background="@color/corBotao"
+        android:textColor="@color/corBackground"
+        android:layout_below="@+id/btMakeMaterial"
+        android:layout_alignLeft="@+id/btMakeMaterial"
+        android:layout_alignStart="@+id/btMakeMaterial"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:text="@string/txtCapstone"
+        android:layout_width="@dimen/larguraBotao"
+        android:layout_height="@dimen/alturaBotao"
+        android:id="@+id/btCapstone"
+        android:background="@color/corBotao"
+        android:textColor="@color/corBackground"
+        android:layout_below="@+id/btGoUbiquitous"
+        android:layout_alignLeft="@+id/btGoUbiquitous"
+        android:layout_alignStart="@+id/btGoUbiquitous"
+        android:layout_marginTop="12dp" />
+</RelativeLayout>
